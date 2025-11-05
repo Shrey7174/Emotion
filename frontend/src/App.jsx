@@ -378,7 +378,7 @@ const SentimentApp = ({ onNavigateBack }) => {
       setError(null); 
       
       const response = await axios.post(
-        'http://localhost:8000/analyze-sentiment/',
+        'http://13.201.192.81/analyze-sentiment/',
         { text }
       );
       
