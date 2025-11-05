@@ -16,7 +16,8 @@ app = FastAPI(
 )
 
 origins = [
-    "https://tiny-cat-6a4522.netlify.app/"
+    "https://tiny-cat-6a4522.netlify.app/",
+    "http://localhost:5173"
 ]
 
 app.add_middleware(

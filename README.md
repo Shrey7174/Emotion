@@ -22,6 +22,18 @@ This project features a clean, professional landing page to introduce the applic
 
  - Seamless Single-Page Application (SPA): A unified React app provides smooth navigation between the introductory landing page and the main sentiment analyzer tool.
 
+ ## Application Gallery
+
+ ![Image](screenshots/odi1.png) <br>**Landing Page**</br>
+
+
+ ![Image](screenshots/odi2.png) <br>**Negative**</br>
+
+ ![Image](screenshots/odi3.png) <br>**Neutral**</br>
+
+ ![Image](screenshots/odi4.png) <br>**Positive**</br>
+
+
 ## Technology Stack
 
 ### Frontend

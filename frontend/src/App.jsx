@@ -378,7 +378,7 @@ const SentimentApp = ({ onNavigateBack }) => {
       setError(null); 
       
       const response = await axios.post(
-        'https://www.novafrost.strangled.net/analyze-sentiment',
+        'http://localhost:8000/analyze-sentiment',
         { text }
       );
       
