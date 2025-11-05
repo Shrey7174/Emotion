@@ -242,7 +242,7 @@ const LandingPage = ({ onNavigate }) => {
           </div>
           <div className="flex items-center space-x-4">
             <a 
-              href="https://github.com" // github link
+              href="https://github.com/Shrey7174/Emotion" // github link
               target="_blank" 
               rel="noopener noreferrer" 
               className="hidden sm:block px-6 py-2.5 text-base font-medium text-gray-700 hover:text-black transition-colors"
@@ -378,7 +378,7 @@ const SentimentApp = ({ onNavigateBack }) => {
       setError(null); 
       
       const response = await axios.post(
-        'http://13.201.192.81/analyze-sentiment/',
+        'https://www.novafrost.strangled.net/analyze-sentiment',
         { text }
       );
       
